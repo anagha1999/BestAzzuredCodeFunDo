@@ -1,1 +1,11 @@
 # BestAzzuredCodeFunDo
+
+Problem: Fake news/Misguided propaganda about political candidates in the elections 
+
+Why is it important:
+Before an election, the political opinions of voters are in a very volatile state. The things they hear about a party/candidate influences their decision heavily. In the modern era of targeted misinformation campaigns, propaganda media etc voters can find it hard to distinguish the truth from lies. Politicians have a lot of influence, power and money to cover up their numerous scandals as well as their hypocritical statements, misleading the voters. A voter’s political stance might be based on something that isn’t necessarily true, which is detrimental for them as well as government. 
+
+Solution: 
+A blockchain based, candidate specific news stream which essentially provides a timeline for the politician’s activity since the start of the election campaign. This includes any major political stance shifts, scandals, views, comments etc. Essentially, one election will have all the political candidates as different profiles. Each of these candidates will have their own separate news streams. This project is unique because we are simply providing the voters with valid, unfiltered material about the contestants, allowing them to make their own informed decisions. The user will interact with this system via an Android app, the system being implemented using Azure Blockchain.
+
+Implementation: Every piece of information about a candidate will be received from various anonymous sources. This information will be subject to review by a team of journalists in coordination with governmental and non-governmental institutions (This would essentially be a decentralised review panel where esteemed members in the journalism industry would review info). After the information has been reviewed, it is added as a node to the candidate’s blockchain. Essentially, voters would only consume media that is stamped with a unique cryptographic identifier, which - when cross-referenced with immutable records on a blockchain - can prove beyond a doubt that the information has been originated from a reliable source. Media without an identifier would be considered less trustworthy. Thus, all records of this candidate(be it scandals or achievements) is on a public, immutable blockchain, readily available for the users' consumption. 
